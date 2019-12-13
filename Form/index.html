@@ -1,0 +1,109 @@
+<html>
+    <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./style.css">
+    <title>Simple Form</title>  
+  
+    </head>
+	<body class="gradient">	
+		<form class="simple_form" action="" method="POST" name="simple_form">
+			<ul>
+				<li>
+					<h2>Checkout form</h2>
+				</li>  
+				<fieldset>
+					<table >
+						<tr align="center">
+							<td>
+							<i class="fa fa-user fa-2x"></i>
+							</td>
+							<td>
+							<input  type="text" name="First name" placeholder="First name" id="lname">
+							</td>
+							<td width="5%">
+							</td>
+							<td>
+							<i class="fa fa-user fa-2x"></i>
+							</td>
+							<td>
+							<input type="text" name="Last name" placeholder="Last name"/>
+							</td>
+						</tr>
+						<tr align="center">
+							<td>
+							<i class="fa fa-envelope fa-2x"></i>
+							</td>
+							<td>
+							<input type="email" name="E-mail" placeholder="E-mail"/>
+							</td>
+							<td>
+							</td>
+							<td>
+							<i class="fa fa-phone fa-2x"></i>
+							</td>
+							<td>
+							<input type="text" name="Phone" placeholder="Phone"/>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<div class="threecolumn">
+						<div class="select-style">
+						<li><select class="country" name="Country" >
+						 <option value="" hidden >Country</option>
+						 <option value="c1">First</option>
+						 <option value="c2">Second</option>
+						 <option value="c3">Third</option>
+						</select></li>
+						</div>
+						<li><input  type="text" name="City" placeholder="City"/></li>
+						<li><input  type="text" name="Post code" placeholder="Post code"/></li>
+					</div>
+						<li><input  type="text" name="Address" placeholder="Address"/></li>
+						<li><textarea name="Additional info" placeholder="Additional info"></textarea></li>
+				</fieldset>
+				<fieldset>
+					<div class="inline">
+						<li><input type="radio" name="paycard" value="Visa" checked/>Visa</li>
+						<li><input type="radio" name="paycard" value="MasterCard"/>MasterCard</li>
+						<li><input type="radio" name="paycard" value="Phone"/>PayPal</li>
+					</div>
+						<li><input  type="text" name="Name on card" placeholder="Name on card"/></li>
+				
+						<table>
+							<tr>    
+								<th colspan="7"><input type="text" name="Card number" placeholder="Card number"/></th>
+								<td width="5%"></td>
+								<td width="20%"><input type="text" name="CVV2" placeholder="CVV2" /></td>
+							</tr>   
+							<tr>
+								<td></td>
+								<td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+							</tr>
+						</table>
+				
+						<table>
+							<tr> 
+								<td class="exp_date">Experation date</td>
+								<th >
+									<select class="month" name="Month" id="id_month">
+									 <option value="" hidden >Month</option>
+									 <option value="m1">January</option>
+									 <option value="m2">February</option>
+									 <option value="m3">March</option>
+									 <option value="m4">April</option>
+									 <option value="m5">etc</option>
+									</select>
+								</th>
+								<td></td>
+								<td width="30%"><input type="text" name="Year" placeholder="Year"/></td>
+							</tr> 
+						</table> 
+			</fieldset>
+			<li class="last"><input class="button" type="button" value="Continue"></li>
+
+    </form>
+	</body>
+</html>
