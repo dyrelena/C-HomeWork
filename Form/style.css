@@ -1,10 +1,8 @@
-	
-	
-	ul {
+ul {
     margin: 0;
     padding: 0;
    }
-   *:focus {
+ *:focus {
 		outline: none;
 		border: 3px solid #eee;
 	}
