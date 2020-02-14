@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<script src="lib.js"></script>
+	<script src="DragManager.js"></script>
+	<script src="DragAvatar.js"></script>
+	<script src="DragZone.js"></script>
+	<script src="DropTarget.js"></script>
+	<script src="TreeDragAvatar.js"></script>
+	<script src="TreeDragZone.js"></script>
+	<script src="TreeDropTarget.js"></script>-->
+	<script src="test.js"></script>
+    <title>To-do list</title>
+   <link rel="stylesheet" type="text/css" href="dragstyle.css">
+    </head>
+    
+    <body>
+    	<div class="container">
+    		<div class="block">
+            	<div class="row">
+            		<h2>To Do</h2>
+            	</div>
+                <div class="row">
+                	<ul class="cards draggable" mousedown="move">
+        			<li id="task1"><span class="todo-text">Task1</span></li>
+            		<li id="task2"><span class="todo-text">Task2</span></li>
+            		<li id="task3"><span class="todo-text">Task3</span></li>
+                    <li id="task4"><span class="todo-text">Task4</span></li>
+        			</ul>
+                </div>
+            </div>
+            <div class="block"  id="doing">
+    	<h2>In progress</h2>
+        </div>
+        
+        <div class="block"  id="done">
+    	<h2>Finished</h2>
+        </div>
+    	</div>
+    </body>
